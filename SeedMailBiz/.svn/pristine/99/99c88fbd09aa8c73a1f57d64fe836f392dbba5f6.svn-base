@@ -1,0 +1,9 @@
+<script type="text/javascript">
+    var _cac = 'CHC_46';
+    var clohc = document.createElement('script'); clohc.type = 'text/javascript';
+    clohc.async = true; clohc.src = 'https://app.clohc.com/teste.js';
+    document.getElementsByTagName('head')[0].appendChild(clohc);
+</script>
+
+<!-- Current Page Vendor and Views -->
+<script src="theme/js/views/view.contact.js"></script>

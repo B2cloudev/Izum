@@ -1,0 +1,640 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+		<title>seedmail - campanhas marketing e-mails sms</title>	
+
+		<meta name="keywords" content="e-mails sms campanhas marketing" />
+		<meta name="description" content="Campanhas de marketing e-mails e sms para a sua empresa simples eficiente e intuitivo">
+		<meta name="author" content="">
+		<html lang="pt">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="theme/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="theme/img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="theme/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="theme/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="theme/vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="theme/vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="theme/vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="theme/vendor/magnific-popup/magnific-popup.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="theme/css/theme.css">
+		<link rel="stylesheet" href="theme/css/theme-elements.css">
+		<link rel="stylesheet" href="theme/css/theme-blog.css">
+		<link rel="stylesheet" href="theme/css/theme-shop.css">
+		<link rel="stylesheet" href="theme/css/theme-animate.css">
+
+		<!-- Current Page CSS -->
+		<link rel="stylesheet" href="theme/vendor/rs-plugin/css/settings.css" media="screen">
+		<link rel="stylesheet" href="theme/vendor/rs-plugin/css/layers.css" media="screen">
+		<link rel="stylesheet" href="theme/vendor/rs-plugin/css/navigation.css" media="screen">
+		<link rel="stylesheet" href="theme/vendor/circle-flip-slideshow/css/component.css" media="screen">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="theme/css/skins/default.css">		<script src="theme/master/style-switcher/style.switcher.localstorage.js"></script>
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="theme/css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="theme/vendor/modernizr/modernizr.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			function cycleImages(){
+					  var $active = $('#cycler .active');
+					  var $next = ($active.next().length > 0) ? $active.next() : $('#cycler img:first');
+					  $next.css('z-index',2);//move the next image up the pile
+					  $active.fadeOut(500,function(){//fade out the top image
+					  $active.css('z-index',1).show().removeClass('active');//reset the z-index and unhide the image
+						  $next.css('z-index',3).addClass('active');//make the next image the top one
+					  });
+					}
+					
+			function cycleList(){
+				var list = $('.list-image:visible');
+				
+				if ($(list).children('li:visible').next().length == 0)
+					$(list).children('li:visible').hide().siblings().first().show();
+				else
+					$(list).children('li:visible').hide().next().show()
+				
+				var list2 = $('.list-tabs:visible');
+				
+				if($(list2).children('.list-tab-active').next().length == 0)
+					$(list2).children('.list-tab-active').removeClass('list-tab-active').addClass('list-tab').siblings().first().addClass('list-tab-active').removeClass('list-tab');
+				else
+					$(list2).children('.list-tab-active').removeClass('list-tab-active').addClass('list-tab').next().addClass('list-tab-active').removeClass('list-tab');
+			}
+
+				$(document).ready(function(){
+				// run every 7s
+				setInterval('cycleImages()', 5000);
+				setInterval('cycleList()', 3000);
+				
+				$('.seedfeatures').click(function() {
+					$('.seedfeatures-active').removeClass('seedfeatures-active')
+					$(this).addClass('seedfeatures-active')
+					
+					var index = $(this).closest('a').index();
+					
+					switch (index) {
+						case 0:
+							$('#marketing').show()
+							$('#client').hide()
+							$('#segmentation').hide()
+							break;
+						case 1:
+							$('#marketing').hide()
+							$('#client').show()
+							$('#segmentation').hide()
+							break;
+						case 2:
+							$('#marketing').hide()
+							$('#client').hide()
+							$('#segmentation').show()
+							break;
+						default:
+							break;
+					}
+						
+				})
+				
+				$('.pricefeatures').click(function() {
+					$('.pricefeatures-active').removeClass('pricefeatures-active')
+					$(this).addClass('pricefeatures-active')
+					
+					var index = $(this).closest('a').index();
+					
+					switch (index) {
+						case 0:
+							$('#mail').show()
+							$('#sms').hide()
+							$('#ip').hide()
+							break;
+						case 1:
+							$('#mail').hide()
+							$('#sms').show()
+							$('#ip').hide()
+							break;
+						case 2:
+							$('#mail').hide()
+							$('#sms').hide()
+							$('#ip').show()
+							break;
+						default:
+							break;
+					}
+						
+				})
+				
+				if($(window).width() > 991)
+					$('.main').children('div').first().height($('.main').width() * 0.4674668351231838)
+				
+				$(window).resize(function() {
+					if($(window).width() > 991)
+						$('.main').children('div').first().height($('.main').width() * 0.4674668351231838)
+				})
+			})
+		</script>
+		
+		<style type="text/css">
+			#cycler{position:relative;}
+			#cycler img{position:absolute;z-index:1}
+			#cycler img.active{z-index:3}
+		</style>
+		
+		
+	</head>
+	<body>
+
+		<div class="body">
+			<header id="header" class="header-narrow" data-plugin-options='{"stickyEnabled": true, "stickyEnableOnBoxed": true, "stickyEnableOnMobile": true, "stickyStartAt": 0, "stickySetTop": "0"}'>
+				<div class="header-body">
+					<div class="header-container container">
+						<div class="header-row">
+							<div class="header-column">
+								<div class="header-logo">
+									<a href="index.html">
+										<img alt="Seedmail" src="theme/img/logo.png">
+									</a>
+								</div>
+							</div>
+							<div class="header-column">
+								<div class="header-row">
+									<div class="header-nav">
+										<button class="btn header-btn-collapse-nav" data-toggle="collapse" data-target=".header-nav-main">
+											<i class="fa fa-bars"></i>
+										</button>
+										<!-- <ul class="header-social-icons social-icons hidden-xs">
+											<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+											<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+											<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+										</ul> -->
+										<div class="header-nav-main header-nav-main-effect-1 header-nav-main-sub-effect-1 collapse">
+											<nav>
+												<ul class="nav nav-pills" id="mainNav">
+													<li><a href="#">Funcionalidades</a></li>
+													<li><a href="#">Tarifas</a></li>
+													<li><a href="#">Quem somos?</a></li>
+													<li><a href="#">Conectar-se</a></li>
+													<li class="bt-sign"><a href="#">Inscrever-se</a></li>
+												</ul>
+											</nav>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+			<div role="main" class="main">
+				<div style="background: url(theme/img/home.jpg) no-repeat center 100%; background-size: 100%;">
+				
+					<div id="cycler">
+						<img style="width:100%; margin-top: -150px;" class="active img-responsive" src="theme/img/automation.png" alt="Automation" />
+						<img style="width:100%; margin-top: -150px;" class="img-responsive" src="theme/img/campaign.png" alt="Campaign" />	
+						<img style="width:100%; margin-top: -150px;" class="img-responsive" src="theme/img/transactionnel.png" alt="Transactionnel" />	
+					</div>
+					
+					<div class="container">
+				
+						<div class="row center" style="margin-top:50px;">
+							<div class="col-md-12">
+								<h1 class="mb-sm word-rotator-title">
+									<strong class="inverted">
+										<span class="word-rotate" data-plugin-options='{"delay": 3000, "animDelay": 300}'>
+											<span class="word-rotate-items">
+												<span>Campanhas de E-mail e SMS</span>
+												<span>E-mails e SMS transacionais</span>
+												<span>Marketing Automático</span>
+											</span>
+										</span>
+									</strong>
+									para todos.
+								</h1>
+								<p class="lead">
+									<span class="word-rotate" data-plugin-options='{"delay": 3000, "animDelay": 300}'>
+											<span class="word-rotate-items">
+												<span>Comunique, informe e converta, graças às campanhas de marketing por e-mails e SMS</span>
+												<span>Segmente seus clientes no momento certo, graças a cenários personalizados</span>
+												<span>Controle seus e-mails e SMS de serviço</span>
+											</span>
+										</span>
+								</p>
+							</div>
+						</div>
+						
+						<div class="row center" style="position:relative;z-index:4;">
+						<div class="col-md-12">
+				
+							<form id="contactForm" action="contact_send.php" method="POST">
+								<input type="hidden" value="true" name="emailSent" id="emailSent">
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-3">
+											<input type="text" value="" placeholder="A sua empresa" class="form-control mb-sm" style="height:46px !important;" maxlength="100" name="name" id="name">
+										</div>
+										<div class="col-md-3">
+											<input type="email" value="" placeholder="E-mail" class="form-control mb-sm" style="height:46px !important;" data-msg-required="Por favor insira o seu Email." data-msg-email="Por favor insira um Email correto." maxlength="100" name="email" id="email" required>
+										</div>
+										<div class="col-md-3">
+											<input type="password" value="" placeholder="Password" class="form-control mb-sm" style="height:46px !important;" data-msg-required="Por favor insira a Password." maxlength="100" class="form-control" name="password" id="password" required>
+										</div>
+										<div class="col-md-3">
+											<input style="width:100%;" type="submit" value="Comece já! É de graça." class="btn btn-primary btn-lg" data-loading-text="A enviar...">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						</div>
+						
+						
+						
+					</div>
+					
+									
+				</div>
+
+				<section class="section">
+					<div class="container">
+						<div class="row mt-xlg">
+						
+							<a href="javascript:;"><div class="col-md-4 seedfeatures seedfeatures-active">
+								<div class="seedfeatures-icon">
+									<i class="icon-volume-2 icons"></i>
+								</div>
+								<p><b>CAMPANHAS DE E-MAIL E SMS</b><br>Comunique, informe e converta, graças às campanhas de marketing por e-mail e SMS</p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-4 seedfeatures">
+								<div class="seedfeatures-icon">
+									<i class="icon-envelope icons"></i>
+								</div>
+								<p><b>E-MAILS E SMS TRANSACIONAIS</b><br>Controle seus e-mails e SMS de serviço</p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-4 seedfeatures">
+								<div class="seedfeatures-icon">
+									<i class="icon-refresh icons"></i>
+								</div>
+								<p><b>MARKETING AUTOMÁTICO</b><br>Segmente seus clientes no momento certo, graças a cenários personalizados</p>
+							</div></a>
+							
+						</div>
+						
+						<div id="marketing" class="row">
+							<h2 class="mt-xxlg center whitify"><strong>Ferramentas de marketing poderosas e intuitivas</strong></h2>
+							<div class="col-md-6 mt-lg">
+								<ul class="list-image">
+									<li><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/marketing-1-newsletter.png" data-appear-animation="fadeInRight" alt="marketing newsletter"></li>
+									<li style="display:none;"><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/marketing-2-contacts.png" data-appear-animation="fadeInRight" alt="marketing contacts"></li>
+									<li style="display:none;"><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/marketing-3-campagne.png" data-appear-animation="fadeInRight" alt="marketing campaigne"></li>
+								</ul>
+							</div>
+							<div class="col-md-6 mt-xlg">
+								<ul class="list-tabs">
+									<li class="list-tab-active"><a href="javascript:;" class="lead strg">Crie facilmente newsletters eficazes</a></li>
+									<li class="list-tab"><a href="javascript:;" class="lead strg">Segmente seu público sem limites</a></li>
+									<li class="list-tab"><a href="javascript:;" class="lead strg">Analise e otimize suas campanhas</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div id="client" class="row" style="display:none">
+							<h2 class="mt-xlg center whitify"><strong>Reforce sua relação com os clientes</strong></h2>
+							<div class="col-md-6 mt-lg">
+								<ul class="list-image">
+									<li><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/automation-1-scenario.png" data-appear-animation="fadeInRight" alt="automation scenario"></li>
+									<li style="display:none;"><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/automation-2-intregration.png" data-appear-animation="fadeInRight" alt="automation integration"></li>
+									<li style="display:none;"><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/automation-3-dashboard.png" data-appear-animation="fadeInRight" alt="automation dashboard"></li>
+								</ul>
+							</div>
+							<div class="col-md-6 mt-xlg">
+								<ul class="list-tabs">
+									<li class="list-tab-active"><a href="javascript:;" class="lead strg">Envie seus e-mails transacionais para a caixa de entrada dos contatos</a></li>
+									<li class="list-tab"><a href="javascript:;" class="lead strg">Aproveite os SMTPs e os APIS da SendinBlue</a></li>
+									<li class="list-tab"><a href="javascript:;" class="lead strg">Acompanhe o seu desempenho em tempo real</a></li>
+								</ul>
+							</div>
+						</div>
+						
+						<div id="segmentation" class="row" style="display:none">
+							<h2 class="mt-xlg center whitify"><strong>Passe à velocidade superior da segmentação</strong></h2>
+							<div class="col-md-6 mt-lg">
+								<ul class="list-image">
+									<li><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/transactionnel-1-dashboard.png" data-appear-animation="fadeInRight" alt="transaccional dashboard"></li>
+									<li style="display:none;"><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/transactionnel-2-logs.png" data-appear-animation="fadeInRight" alt="transaccional logs"></li>
+									<li style="display:none;"><img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/transactionnel-3-settings.png" data-appear-animation="fadeInRight" alt="transaccional settings"></li>
+								</ul>
+							</div>
+							<div class="col-md-6 mt-xlg">
+								<ul class="list-tabs">
+									<li class="list-tab-active"><a href="javascript:;" class="lead strg">Crie cenários multicanais em dois cliques</a></li>
+									<li class="list-tab"><a href="javascript:;" class="lead strg">Acompanhe os contatos em seu site</a></li>
+									<li class="list-tab"><a href="javascript:;" class="lead strg">Otimize seus cenários, graças a estatísticas completas</a></li>
+								</ul>
+							</div>
+						</div>
+						
+					</div>
+				</section>
+				
+				<div class="container">
+				
+				<div class="row mt-xxxlg mb-xxxlg">
+						<div class="counters">
+							<div class="col-md-3 col-sm-6">
+								<div class="counter counter-dark">
+									<i class="fa fa-envelope"></i>
+									<strong data-to="30000000" data-append="+">0</strong>
+									<label>Emails enviados por dia</label>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="counter counter-dark">
+									<i class="fa fa-globe"></i>
+									<strong data-to="140">0</strong>
+									<label>Países</label>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="counter counter-dark">
+									<i class="fa fa-user"></i>
+									<strong data-to="15000">0</strong>
+									<label>Utilizadores</label>
+								</div>
+							</div>
+							<div class="col-md-3 col-sm-6">
+								<div class="counter counter-dark">
+									<i class="fa fa-mobile"></i>
+									<strong data-to="5000000">0</strong>
+									<label>SMS enviados por mês</label>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+					
+					<section class="sectionprice">
+						<div class="container">
+							<div class="row mt-xlg">
+						
+							<a href="javascript:;"><div class="col-md-4 pricefeatures pricefeatures-active">
+								<div class="pricefeatures-icon">
+									<i class="icon-envelope icons"></i>
+								</div>
+								<p><b>TARIFAS DE EMAIL</b></p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-4 pricefeatures">
+								<div class="pricefeatures-icon">
+									<i class="icon-screen-smartphone icons"></i>
+								</div>
+								<p><b>TARIFAS DE SMS</b></p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-4 pricefeatures">
+								<div class="pricefeatures-icon">
+									<i class="icon-pointer icons"></i>
+								</div>
+								<p><b>IP DEDICADO</b></p>
+							</div></a>
+							
+						</div>
+						
+						<div id="mail" class="row mb-xxxlg">
+							<h2 class="section-text-dark mt-xxlg center"><strong>Contacte-nos para subscrever o nosso serviço.<br>Sem qualquer compromisso!</strong></h2>
+						<div class="pricing-table princig-table-flat mt-xxlg">
+							<div class="col-md-4 col-sm-6 center">
+								
+							</div>
+							<div class="col-md-4 col-sm-6 center">
+								<div class="plan most-popular">
+									<h3>EMAIL<span>SOB CONSULTA</span></h3>
+									<ul>
+										<li>Contactos <strong>ILIMITADOS</strong></li>
+										<li><strong>SEM LIMITE</strong> Diário</li>
+										<li><strong>30 000</strong> Emails/mês</li>
+										<li>Estatísticas <strong>AVANÇADAS</strong></li>
+										<li><a class="btn btn-primary" href="#">SUBSCREVER</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 center">
+								
+							</div>
+						</div>
+
+						</div>
+						
+						<div id="sms" class="row mb-xxxlg" style="display:none;">
+							<h2 class="section-text-dark mt-xxlg center"><strong>Envie SMS para os seus clientes.<br>A forma mais rápida de comunicar!</strong></h2>
+						<div class="pricing-table princig-table-flat mt-xxlg">
+							<div class="col-md-4 col-sm-6 center">
+								
+							</div>
+							<div class="col-md-4 col-sm-6 center">
+								<div class="plan most-popular">
+									<h3>SMS<span>SOB CONSULTA</span></h3>
+									<ul>
+										<li>Contactos <strong>ILIMITADOS</strong></li>
+										<li><strong>SEM LIMITE</strong> Diário</li>
+										<li>SMS <strong>ILIMITADOS</strong></li>
+										<li>Pode enviar para qualquer <strong>PAÍS</strong></li>
+										<li><a class="btn btn-primary" href="#">SUBSCREVER</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 center">
+								
+							</div>
+						</div>
+
+						</div>
+						
+						<div id="ip" class="row mb-xxxlg" style="display:none;">
+							<h2 class="section-text-dark mt-xxlg center"><strong>Optmize a capacidade de envio dos seus emails.<br>Obtenha o seu próprio IP!</strong></h2>
+						<div class="pricing-table princig-table-flat mt-xxlg">
+							<div class="col-md-4 col-sm-6 center">
+								
+							</div>
+							<div class="col-md-4 col-sm-6 center">
+								<div class="plan most-popular">
+									<h3>IP DEDICADO<span>SOB CONSULTA</span></h3>
+									<ul>
+										<li><strong>EMAILS ASSINADOS DIGITALMENTE</strong></li>
+										<li><strong>CONTROLO DE REPUTAÇÃO</strong></li>
+										<li><strong>CONTOLO DE BLACKLISTS</strong></li>
+										<li><strong>MAIOR</strong> Segurança e Estabilidade</li>
+										<li><a class="btn btn-primary" href="#">SUBSCREVER</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="col-md-4 col-sm-6 center">
+								
+							</div>
+						</div>
+
+						</div>
+						
+						</div>
+					</section>
+					
+					<section class="section">
+						<div class="container">
+						
+						<h2 class="center whitify">Experimente gratuitamente, e envie até 9 mil e-mails por mês</h2>
+						<p class="center whitify">Não é necessário cartão de crédito. Sem exigência de fidelidade.</p>
+						<div class="col-md-12 mb-xxlg">
+				
+							<form>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-3">
+											<input value="" placeholder="A sua empresa" class="form-control mb-sm" style="height:46px !important;">
+										</div>
+										<div class="col-md-3">
+											<input value="" placeholder="E-mail" class="form-control mb-sm" style="height:46px !important;">
+										</div>
+										<div class="col-md-3">
+											<input value="" placeholder="Password" class="form-control mb-sm" style="height:46px !important;">
+										</div>
+										<div class="col-md-3">
+											<input style="width:100%;" value="Comece já! É de graça." class="btn btn-scnd btn-lg">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						</div>
+					</section>
+					
+					<footer class="short whitify" id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+
+							<div class="row">
+							
+								<div class="col-md-3">
+									<h5>Seedmail</h5>
+									<ul class="list list-icons list-icons-sm">
+										<p class="whitify">O Seedmail é uma solução inovadora de marketing relacional. Tanto os menos experientes, como os mais experientes podem gerir, a partir da mesma plataforma, os seus envios de e-mails e SMS, de marketing ou transacionais.</p>
+									</ul>
+								</div>
+								
+								<div class="col-md-3">
+									<h5>Saiba Mais</h5>
+									<ul class="list list-icons list-icons-sm">
+										<li><i class="fa fa-caret-right"></i> <a href="#">Funcionalidades</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="#">Tarifas</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="#">Inscrição</a></li>
+									</ul>
+								</div>
+								<div class="col-md-3">
+									<h5>Aprender</h5>
+									<ul class="list list-icons list-icons-sm">
+										<li><i class="fa fa-caret-right"></i> <a href="#">Tutoriais</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="#">Plugins</a></li>
+									</ul>
+								</div>
+								<div class="col-md-3">
+									<h5>Empresa</h5>
+									<ul class="list list-icons list-icons-sm">
+										<li><i class="fa fa-caret-right"></i> <a href="#">B2Cloud</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="#">Condições gerais de uso</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="#">Política Anti-Spam</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="#">Contacto</a></li>
+									</ul>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-md-3">
+							<h5 class="mb-sm">Contactos</h5>
+							<span class="phone">+351 221 450 212</span>
+							<ul class="list list-icons mt-xl">
+								<li><i class="fa fa-map-marker"></i> <strong>Morada:</strong> Famalicão, Braga, Portugal</li>
+								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:info@seedmail.com">info@seedmail.biz</a></li>
+							</ul>
+<!-- 							<ul class="social-icons mt-xl">
+								<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+							</ul> -->
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-2">
+								<a href="index.html" class="logo">
+									<img alt="Seedmail" class="img-responsive" src="theme/img/logo-footer.png">
+								</a>
+							</div>
+							<div class="col-md-10">
+								<p style="line-height:35px" class="whitify">© Seedmail 2016. Todos os direitos reservados.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+				
+		</div>
+
+		<!-- Vendor -->
+		<script src="theme/vendor/jquery/jquery.min.js"></script>
+		<script src="theme/vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="theme/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="theme/vendor/jquery-cookie/jquery-cookie.min.js"></script>
+		<script src="theme/master/style-switcher/style.switcher.js"></script>
+		<script src="theme/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="theme/vendor/common/common.min.js"></script>
+		<script src="theme/vendor/jquery.validation/jquery.validation.min.js"></script>
+		<script src="theme/vendor/jquery.stellar/jquery.stellar.min.js"></script>
+		<script src="theme/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		<script src="theme/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="theme/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="theme/vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="theme/vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="theme/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="theme/vendor/vide/vide.min.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="theme/js/theme.js"></script>
+		
+		<!-- Current Page Vendor and Views -->
+		<script src="theme/vendor/rs-plugin/js/jquery.themepunch.tools.min.js"></script>
+		<script src="theme/vendor/rs-plugin/js/jquery.themepunch.revolution.min.js"></script>
+		<script src="theme/vendor/circle-flip-slideshow/js/jquery.flipshow.min.js"></script>
+		<script src="theme/js/views/view.home.js"></script>
+		<script src="theme/js/views/view.contact.js"></script>
+				
+		<!-- Theme Custom -->
+		<script src="theme/js/custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="theme/js/theme.init.js"></script>
+
+	</body>
+
+</html>
