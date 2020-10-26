@@ -1,2 +1,0 @@
-AddHandler php5-cgi .html
-AddHandler application/x-httpd-php .html
