@@ -1,0 +1,631 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+		<title>seedmail - campanhas marketing e-mails sms</title>	
+
+		<meta name="keywords" content="e-mails sms campanhas marketing" />
+		<meta name="description" content="Campanhas de marketing e-mails e sms para a sua empresa simples eficiente e intuitivo">
+		<meta name="author" content="Seedmail">
+		<meta http-equiv="content-language" content="pt-PT" />
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="theme/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="theme/img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="theme/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="theme/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="theme/vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="theme/vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="theme/vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="theme/vendor/magnific-popup/magnific-popup.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="theme/css/theme.css">
+		<link rel="stylesheet" href="theme/css/theme-elements.css">
+		<link rel="stylesheet" href="theme/css/theme-blog.css">
+		<link rel="stylesheet" href="theme/css/theme-shop.css">
+		<link rel="stylesheet" href="theme/css/theme-animate.css">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="theme/css/skins/default.css">		<script src="theme/master/style-switcher/style.switcher.localstorage.js"></script>
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="theme/css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="theme/vendor/modernizr/modernizr.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			$(window).scroll(function() {
+
+					//After scrolling 100px from the top...
+					if ( $(window).scrollTop() >= 150 ) {
+						$('#headermenu').css('border-bottom-color', '#e9e9e9');
+						$('#headermenu').css('box-shadow', '0 0 3px rgba(0, 0, 0, 0.1)');
+
+					//Otherwise remove inline styles and thereby revert to original stying
+					} else {
+						$('#headermenu').attr('style', '');
+
+					}
+				})
+			$(function() {
+			$('.pricefeatures').click(function() {
+					$('.pricefeatures-active').removeClass('pricefeatures-active')
+					$(this).addClass('pricefeatures-active')
+					
+					var index = $(this).closest('a').index();
+					
+					switch (index) {
+						case 0:
+							$('#campanha').show()
+							$('#contactos').hide()
+							$('#relatorio').hide()
+							$('#marketing').hide()
+							$('#mensagens').hide()
+							$('#capacidade').hide()
+							break;
+						case 1:
+							$('#campanha').hide()
+							$('#contactos').show()
+							$('#relatorio').hide()
+							$('#marketing').hide()
+							$('#mensagens').hide()
+							$('#capacidade').hide()
+							break;
+						case 2:
+							$('#campanha').hide()
+							$('#contactos').hide()
+							$('#relatorio').show()
+							$('#marketing').hide()
+							$('#mensagens').hide()
+							$('#capacidade').hide()
+							break;
+						case 3:
+							$('#campanha').hide()
+							$('#contactos').hide()
+							$('#relatorio').hide()
+							$('#marketing').show()
+							$('#mensagens').hide()
+							$('#capacidade').hide()
+							break;
+						case 4:
+							$('#campanha').hide()
+							$('#contactos').hide()
+							$('#relatorio').hide()
+							$('#marketing').hide()
+							$('#mensagens').show()
+							$('#capacidade').hide()
+							break;
+						case 5:
+							$('#campanha').hide()
+							$('#contactos').hide()
+							$('#relatorio').hide()
+							$('#marketing').hide()
+							$('#mensagens').hide()
+							$('#capacidade').show()
+							break;
+						default:
+							break;
+					}
+						
+				})
+			})
+			
+		</script>
+				
+		
+	</head>
+	<body>
+	<div class="body">
+
+<?php include('include/header.php') ?>
+<div role="main" class="main">
+
+				<section class="page-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Todas as funcionalidades que precisa</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="container">
+												
+						<div class="row mb-lg">
+						
+							<a href="javascript:;"><div class="col-md-2 pricefeatures pricefeatures-active">
+								<p><b>CRIAÇÃO DA CAMPANHA</b></p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-2 pricefeatures">
+								<p><b>GESTÃO DE CONTATOS</b></p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-2 pricefeatures">
+								<p><b>RELATÓRIO DAS CAMPANHAS</b></p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-2 pricefeatures">
+								<p><b>MARKETING AUTOMATION</b></p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-2 pricefeatures">
+								<p><b>MENSAGENS TRANSACIONAIS</b></p>
+							</div></a>
+							
+							<a href="javascript:;"><div class="col-md-2 pricefeatures">
+								<p><b>CAPACIDADE DE ENTREGA</b></p>
+							</div></a>
+							
+						</div>
+				</div>
+				<div id="campanha" class="mb-xxxlg">
+				<div class="container">
+				<div class="row">
+							<h2 class="section-text-dark center mt-lg"><strong>Crie campanhas magníficas de e-mail</strong></h2>
+						<div>
+							<img class="img-responsive center-block appear-animation fadeIn appear-animation-visible" src="theme/img/features/emaildesigneralt.png" data-appear-animation="fadeIn" alt="Email Design">
+						</div>
+						</div>
+				</div>		
+						
+						<section class="sectionprice">
+						<div class="container">
+						<div class="row mb-xxlg">
+						<div class="col-md-5">
+							<h2 style="font-weight: 500;">Não é necessária nenhuma experiência em HTML</h2>
+								<p><h2 style="font-size:1.9em;">Editor intuitivo de newsletter</h2>
+								Sem experiência em design de e-mails? Sem problemas!<br>
+								Deixe que nosso editor faça o trabalho técnico por você
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Galeria de modelos</h2>
+								Escolha e personalize um modelo de e-mail, para criar facilmente uma bela newsletter
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Design Responsivo de E-mails</h2>
+								Nosso editor otimiza automaticamente a mensagem enviada para todos os dispositivos: celular, tablet ou computador
+								</p>
+							</div>
+							<div class="col-md-1">
+							</div>
+						<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/features/nodesignskillsrequired.png" data-appear-animation="fadeInRight" alt="No design skills required">
+							</div>
+							
+							</div>
+							</div>
+							</section>
+							
+							<div class="container">
+						<div class="row mt-xxxlg">
+							<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInLeft appear-animation-visible" src="theme/img/features/performancedrivencampaigns-b.png" data-appear-animation="fadeInLeft" alt="Performance driven campaigns">
+							</div>
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-5">
+							<h2 style="font-weight: 500;">Campanhas eficazes</h2>
+								<p><h2 style="font-size:1.9em;">Conteúdo personalizado</h2>
+								Personalize seus e-mails em função dos contatos, para aumentar a responsividade deles
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Visualização na caixa de entrada</h2>
+								Teste e otimize suas campanhas antes de enviá-las
+								</p>
+							</div>
+						
+							
+							</div>
+							</div>
+				
+				</div>
+				
+				
+				<div id="contactos" class="mb-xxxlg" style="display:none;">
+				<div class="container">
+				<div class="row">
+							<h2 class="section-text-dark center mt-lg"><strong>Gerencie, segmente e aumente sua base de dados</strong></h2>
+						<div>
+							<img class="img-responsive center-block appear-animation fadeIn appear-animation-visible" src="theme/img/features/ContactManagement.png" data-appear-animation="fadeIn" alt="Contact Management">
+						</div>
+						</div>
+				</div>		
+						
+						<section class="sectionprice">
+						<div class="container">
+						<div class="row mb-xxlg">
+						<div class="col-md-5">
+							<h2 style="font-weight: 500;">Uma segmentação inteligente</h2>
+								<p><h2 style="font-size:1.9em;">Segmentação avançada</h2>
+								Filtre seus contatos em função de critérios socio-demográficos e comportamentais
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Gestão de listas</h2>
+								Reagrupe seus contatos em arquivos e listas, para uma organização rápida e eficaz
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Listas dinâmicas</h2>
+								Atualize automaticamente suas listas, em função dos critérios de sua escolha
+								</p>
+							</div>
+							<div class="col-md-1">
+							</div>
+						<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/features/smarttargetingcreatesresults.png" data-appear-animation="fadeInRight" alt="Smart targeting creates results">
+							</div>
+							
+							</div>
+							</div>
+							</section>
+							
+							<div class="container">
+						<div class="row mt-xxxlg">
+							<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInLeft appear-animation-visible" src="theme/img/features/unlimitedgrowthunlimitedtools.png" data-appear-animation="fadeInLeft" alt="Unlimited growth, unlimited tools">
+							</div>
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-5">
+							<h2 style="font-weight: 500;">Crescimento ilimitado, ferramentas ilimitadas</h2>
+								<p><h2 style="font-size:1.9em;">Formulários de inscrição</h2>
+								Aumente sua base de dados, graças aos formulários de inscrição inteiramente personalizados
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Número ilimitado de contatos</h2>
+								Aumente sua base de dados sem limites
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Atributos de contatos ilimitados</h2>
+								Aumente, o quanto quiser, a quantidade de contatos!
+								</p>
+							</div>
+						
+							
+							</div>
+							</div>
+				
+				</div>
+				
+				<div id="relatorio" class="mb-xxxlg" style="display:none;">
+				<div class="container">
+				<div class="row">
+							<h2 class="section-text-dark center mt-lg"><strong>Analise e otimize suas campanhas em tempo real</strong></h2>
+						<div>
+							<img class="img-responsive center-block appear-animation fadeIn appear-animation-visible" src="theme/img/features/campaignreport.png" data-appear-animation="fadeIn" alt="Campaign report">
+						</div>
+						</div>
+				</div>		
+						
+						<section class="sectionprice">
+						<div class="container">
+						<div class="row mb-xxlg">
+						<div class="col-md-5">
+							<h2 style="font-weight: 500;">Suas estatísticas sempre que quiser</h2>
+								<p><h2 style="font-size:1.9em;">Resultados em tempo real</h2>
+								Por que esperar? Acompanhe os resultados de suas campanhas em tempo real
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Relatórios PDF e CSV</h2>
+								Exporte ou compartilhe os relatórios detalhados de campanha no formato PDF ou CSV
+								</p>
+								
+							</div>
+							<div class="col-md-1">
+							</div>
+						<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/features/yourdatawhenhowyouneedit.png" data-appear-animation="fadeInRight" alt="Your data when & how you need it">
+							</div>
+							
+							</div>
+							</div>
+							</section>
+							
+							<div class="container">
+						<div class="row mt-xxxlg">
+							<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInLeft appear-animation-visible" src="theme/img/features/insightstohelpyouoptimize.png" data-appear-animation="fadeInLeft" alt="Insights to help you optimize">
+							</div>
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-5">
+							<h2 style="font-weight: 500;">Dados que o ajudam</h2>
+								<p><h2 style="font-size:1.9em;">Geolocalização das pessoas que abriram e clicaram</h2>
+								Descubra onde estão seus contatos mais responsivos
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Mapa térmico das pessoas que clicaram</h2>
+								Entenda o que mais interessou seus contatos na sua newsletter
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Detalhes por dispositivo e caixa de mensagens</h2>
+								Analise os hábitos de seus contatos
+								</p>
+							</div>
+						
+							
+							</div>
+							</div>
+				
+				</div>
+				
+				<div id="marketing" class="mb-xxxlg" style="display:none;">
+				<div class="container">
+				<div class="row">
+							<h2 class="section-text-dark center mt-lg"><strong>Segmente os seus clientes atuais e potenciais em função das suas ações e preferências</strong></h2>
+						<div>
+							<img class="img-responsive center-block appear-animation fadeIn appear-animation-visible" src="theme/img/features/marketingautomation.png" data-appear-animation="fadeIn" alt="Marketing automation">
+						</div>
+						</div>
+				</div>		
+						
+						<section class="sectionprice">
+						<div class="container">
+						<div class="row mb-xxlg">
+						<div class="col-md-5">
+							<h2 style="font-weight: 500;">Marketing Automático para todos</h2>
+								<p><h2 style="font-size:1.9em;">Editor de cenários automáticos</h2>
+								Automatize seu marketing relacional, criando cenários multicanais em dois cliques
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Estratégia multicanal</h2>
+								E-mail? SMS? E-mail e SMS? Escolha o que for mais eficaz!
+								</p>
+								
+							</div>
+							<div class="col-md-1">
+							</div>
+						<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/features/automationforeveryone.png" data-appear-animation="fadeInRight" alt="Automation for everyone">
+							</div>
+							
+							</div>
+							</div>
+							</section>
+							
+							<div class="container">
+						<div class="row mt-xxxlg">
+							<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInLeft appear-animation-visible" src="theme/img/features/targetingthatmakesthesale.png" data-appear-animation="fadeInLeft" alt="Targeting that makes the sale">
+							</div>
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-5">
+							<h2 style="font-weight: 500;">Segmente para convencer</h2>
+								<p><h2 style="font-size:1.9em;">Segmentação comportamental</h2>
+								Reative seus contatos automaticamente, em função da responsividade aos seus e-mails e SMS
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Segmentação sob medida</h2>
+								Acompanhe o percurso de seus contatos pelo site
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Segmentação socio-demográfica</h2>
+								Use todas as características de seus contatos (cidade, sexo, etc.)
+								</p>
+							</div>
+						
+							
+							</div>
+							</div>
+				
+				</div>
+				
+				
+				<div id="mensagens" class="mb-xxxlg" style="display:none;">
+				<div class="container">
+				<div class="row">
+							<h2 class="section-text-dark center mt-lg"><strong>Um SMTP eficaz para os seus e-mails e SMS transacionais</strong></h2>
+						<div>
+							<img class="img-responsive center-block appear-animation fadeIn appear-animation-visible" src="theme/img/features/transactionnal.png" data-appear-animation="fadeIn" alt="Transactionnal">
+						</div>
+						</div>
+				</div>		
+						
+						<section class="sectionprice">
+						<div class="container">
+						<div class="row mb-xxlg">
+						<div class="col-md-5">
+							<h2 style="font-weight: 500;">Confie em quem sabe o que faz</h2>
+								<p><h2 style="font-size:1.9em;">Capacidade de entrega otimizada</h2>
+								Certifique-se de que as mensagens de criação de conta, confirmação de pedidos, etc, cheguem na caixa de entrada de seus destinatários
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Histórico de mensagens e logs</h2>
+								Arquive e pesquise todo o histórico dos seus e-mails e SMS transacionais
+								</p>
+								
+							</div>
+							<div class="col-md-1">
+							</div>
+						<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/features/systemsyoucancounton.png" data-appear-animation="fadeInRight" alt="Systems you can count on">
+							</div>
+							
+							</div>
+							</div>
+							</section>
+							
+							<div class="container">
+						<div class="row mt-xxxlg">
+							<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInLeft appear-animation-visible" src="theme/img/features/responsivetoolstohelpyoubetterservecustomers.png" data-appear-animation="fadeInLeft" alt="Responsive tools to help you better serve customers">
+							</div>
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-5">
+							<h2 style="font-weight: 500;">Facilite o transacional com ferramentas poderosas</h2>
+								<p><h2 style="font-size:1.9em;">Resultados em tempo real</h2>
+								Acompanhe, em tempo real, a entrega das suas mensagens e a responsividade dos seus clientes
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">APIs flexíveis</h2>
+								Integre o SMTP da SendinBlue, graças aos nossos APIs e plugins
+								</p>
+							</div>
+						
+							
+							</div>
+							</div>
+				
+				</div>
+				
+				<div id="capacidade" class="mb-xxxlg" style="display:none;">
+				<div class="container">
+				<div class="row">
+							<h2 class="section-text-dark center mt-lg"><strong>Envie os seus e-mails para a caixa de entrada dos seus contatos</strong></h2>
+						<div>
+							<img class="img-responsive center-block appear-animation fadeIn appear-animation-visible" src="theme/img/features/deliverability.png" data-appear-animation="fadeIn" alt="Deliverability">
+						</div>
+						</div>
+				</div>		
+						
+						<section class="sectionprice">
+						<div class="container">
+						<div class="row mb-xxlg">
+						<div class="col-md-5">
+							<h2 style="font-weight: 500;">Ofereça esta flexibilidade a você mesmo</h2>
+								<p><h2 style="font-size:1.9em;">IP mutualizado ou IP dedicado?</h2>
+								Escolha a solução mais adptada às suas necessidades
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Gestão de pools de IP</h2>
+								Gira com autonomia total os pools de IP dedicados para volumes significativos de envio
+								</p>
+								
+							</div>
+							<div class="col-md-1">
+							</div>
+						<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInRight appear-animation-visible" src="theme/img/features/flexibilityatgreatprices.png" data-appear-animation="fadeInRight" alt="Flexibility at great prices">
+							</div>
+							
+							</div>
+							</div>
+							</section>
+							
+							<div class="container">
+						<div class="row mt-xxxlg">
+							<div class="col-md-6">
+									<img class="img-responsive appear-animation fadeInLeft appear-animation-visible" src="theme/img/features/keepingyourreputationsafe.png" data-appear-animation="fadeInLeft" alt="Keeping your reputation safe">
+							</div>
+							<div class="col-md-1">
+							</div>
+							<div class="col-md-5">
+							<h2 style="font-weight: 500;">Preserve a sua reputação</h2>
+								<p><h2 style="font-size:1.9em;">Controle da reputação</h2>
+								Acompanhe a reputação dos seus envios e dos seus IP junto das FAI e dos serviços anti-spam
+								</p>
+								
+								<p><h2 style="font-size:1.9em;">Assinaturas e autenticação</h2>
+								Personalize suas assinaturas SPF, DKIM e DMARC para autenticar seus e-mails com o seu domínio, com toda a segurança
+								</p>
+							</div>
+						
+							
+							</div>
+							</div>
+				
+				</div>
+				
+				<section class="sectionprice">
+						<div class="container">
+						<div class="row center mb-xlg">
+						<h2 style="font-weight: 500;">Todas as funcionalidades</h2>
+						</div>
+						<div class="row mb-xlg">
+						<div class="col-md-4" style="font-size:1.2em;">
+						<p style="font-weight: 700;">Gestão de contatos</p>
+						<p>Importação dos arquivos<br>
+						Adicionar campos personalizados<br>
+						Segmentação dos contatos<br>
+						Criação de formulários de inscrição e de cancelamento de inscrição</p>
+						</div>
+						<div class="col-md-4" style="font-size:1.2em;">
+						<p style="font-weight: 700;">Criação</p>
+						<p>Editor avançado de newsletter<br>
+						Editor de HTML<br>
+						Hospedagem de imagens<br>
+						Compartilhamento nas redes sociais<br>
+						Personalização dinâmica</p>
+						</div>
+						<div class="col-md-4" style="font-size:1.2em;">
+						<p style="font-weight: 700;">Envio de e-mails</p>
+						<p>Teste da capacidade de entrega<br>
+						Envio de SMS<br>
+						IP dedicado</p>
+						</div>
+						
+						</div>
+						
+						<div class="row mb-xxlg">
+						<div class="col-md-4" style="font-size:1.2em;">
+						<p style="font-weight: 700;">Acompanhamento da campanha</p>
+						<p>Relatório completo da campanha<br>
+						Exportação dos dados<br>
+						Relatório sobre as taxas de aberturas e de cliques</p>
+						</div>
+						<div class="col-md-4" style="font-size:1.2em;">
+						<p style="font-weight: 700;">E-mails transacionais</p>
+						<p>SMTP<br>
+						Modelos de e-mail transacional<br>
+						Estatísticas em tempo real</p>
+						</div>
+						<div class="col-md-4" style="font-size:1.2em;">
+						<p style="font-weight: 700;">E-commerce</p>
+						<p>Importe os pedidos<br>
+						Acompanhe indicadores personalizados<br>
+						Trigger Marketing</p>
+						</div>
+						
+						</div>
+				</section>
+				
+			</div>
+			<?php include('include/footer.php') ?>
+			</div>
+			<!-- Vendor -->
+		<script src="theme/vendor/jquery/jquery.min.js"></script>
+		<script src="theme/vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="theme/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="theme/vendor/jquery-cookie/jquery-cookie.min.js"></script>
+		<script src="theme/master/style-switcher/style.switcher.js"></script>
+		<script src="theme/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="theme/vendor/common/common.min.js"></script>
+		<script src="theme/vendor/jquery.validation/jquery.validation.min.js"></script>
+		<script src="theme/vendor/jquery.stellar/jquery.stellar.min.js"></script>
+		<script src="theme/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		<script src="theme/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="theme/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="theme/vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="theme/vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="theme/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="theme/vendor/vide/vide.min.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="theme/js/theme.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="theme/js/custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="theme/js/theme.init.js"></script>
+		<?php include('include/scripts.php') ?>
+	</body>
+</html>

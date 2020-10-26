@@ -1,0 +1,102 @@
+<section class="section">
+						<div class="container">
+						
+						<h2 class="center whitify">Experimente, e envie até 9 mil e-mails por mês</h2>
+						<p class="center whitify">Não é necessário cartão de crédito. Sem exigência de fidelidade.</p>
+						<div class="col-md-12 mb-xxlg">
+				
+							<form>
+								<div class="row">
+									<div class="form-group">
+										<div class="col-md-3">
+											<input type="text" value="" placeholder="A sua empresa" class="form-control mb-sm" style="height:46px !important;" maxlength="100" name="name" id="name">
+										</div>
+										<div class="col-md-3">
+											<input type="email" value="" placeholder="E-mail" class="form-control mb-sm" style="height:46px !important;" data-msg-required="Por favor insira o seu Email." data-msg-email="Por favor insira um Email correto." maxlength="100" name="email" id="email" required>
+										</div>
+										<div class="col-md-3">
+											<input type="password" value="" placeholder="Password" class="form-control mb-sm" style="height:46px !important;" data-msg-required="Por favor insira a Password." maxlength="100" class="form-control" name="password" id="password" required>
+										</div>
+										<div class="col-md-3">
+											<input style="width:100%;" type="submit" value="Comece já!" class="btn btn-scnd btn-lg" data-loading-text="A enviar...">
+										</div>
+									</div>
+								</div>
+							</form>
+						</div>
+						</div>
+					</section>
+
+<footer class="short whitify" id="footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-9">
+
+							<div class="row">
+							
+								<div class="col-md-4">
+									<h5>Seedmail</h5>
+									<ul class="list list-icons list-icons-sm">
+										<p class="whitify">O Seedmail é uma solução inovadora de marketing relacional. Tanto os menos experientes, como os mais experientes podem gerir, a partir da mesma plataforma, os seus envios de e-mails e SMS, de marketing ou transacionais.</p>
+									</ul>
+								</div>
+								<div class="col-md-1">
+									
+								</div>
+								<div class="col-md-3">
+									<h5>Saiba Mais</h5>
+									<ul class="list list-icons list-icons-sm">
+										<li><i class="fa fa-caret-right"></i> <a href="features.html">Funcionalidades</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="price.html">Tarifas</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="sign.html">Inscrição</a></li>
+									</ul>
+								</div>
+								<!--<div class="col-md-3">
+									<h5>Aprender</h5>
+									<ul class="list list-icons list-icons-sm">
+										<li><i class="fa fa-caret-right"></i> <a href="#">Tutoriais</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="#">Plugins</a></li>
+									</ul>
+								</div>-->
+								<div class="col-md-4">
+									<h5>Empresa</h5>
+									<ul class="list list-icons list-icons-sm">
+										<li><i class="fa fa-caret-right"></i> <a href="company.html">B2Cloud</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="use.html">Condições gerais</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="antispam.html">Política Anti-Spam</a></li>
+										<li><i class="fa fa-caret-right"></i> <a href="contacts.php">Contactos</a></li>
+									</ul>
+								</div>
+								
+							</div>
+						</div>
+						<div class="col-md-3">
+							<h5 class="mb-sm">Contactos</h5>
+							<span class="phone">+351 221 450 212</span>
+							<ul class="list list-icons mt-xl">
+								<li><i class="fa fa-map-marker"></i> <strong>Morada:</strong> Famalicão, Braga, Portugal</li>
+								<li><i class="fa fa-envelope"></i> <strong>Email:</strong> <a href="mailto:info@seedmail.com">info@seedmail.biz</a></li>
+							</ul>
+<!-- 							<ul class="social-icons mt-xl">
+								<li class="social-icons-facebook"><a href="http://www.facebook.com/" target="_blank" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+								<li class="social-icons-twitter"><a href="http://www.twitter.com/" target="_blank" title="Twitter"><i class="fa fa-twitter"></i></a></li>
+								<li class="social-icons-linkedin"><a href="http://www.linkedin.com/" target="_blank" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+							</ul> -->
+						</div>
+					</div>
+				</div>
+				<div class="footer-copyright">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-2">
+								<a href="index.html" class="logo">
+									<img alt="Seedmail" class="img-responsive" src="theme/img/logo-footer.png">
+								</a>
+							</div>
+							<div class="col-md-10">
+								<p style="line-height:35px" class="whitify">© Seedmail 2016. Todos os direitos reservados.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>

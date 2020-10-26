@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+		<!-- Basic -->
+		<meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">	
+
+		<title>seedmail - campanhas marketing e-mails sms</title>	
+
+		<meta name="keywords" content="e-mails sms campanhas marketing" />
+		<meta name="description" content="Campanhas de marketing e-mails e sms para a sua empresa simples eficiente e intuitivo">
+		<meta name="author" content="Seedmail">
+		<meta http-equiv="content-language" content="pt-PT" />
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="theme/img/favicon.ico" type="image/x-icon" />
+		<link rel="apple-touch-icon" href="theme/img/apple-touch-icon.png">
+
+		<!-- Mobile Metas -->
+		<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<!-- Web Fonts  -->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800%7CShadows+Into+Light" rel="stylesheet" type="text/css">
+
+		<!-- Vendor CSS -->
+		<link rel="stylesheet" href="theme/vendor/bootstrap/css/bootstrap.min.css">
+		<link rel="stylesheet" href="theme/vendor/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="theme/vendor/simple-line-icons/css/simple-line-icons.min.css">
+		<link rel="stylesheet" href="theme/vendor/owl.carousel/assets/owl.carousel.min.css">
+		<link rel="stylesheet" href="theme/vendor/owl.carousel/assets/owl.theme.default.min.css">
+		<link rel="stylesheet" href="theme/vendor/magnific-popup/magnific-popup.min.css">
+
+		<!-- Theme CSS -->
+		<link rel="stylesheet" href="theme/css/theme.css">
+		<link rel="stylesheet" href="theme/css/theme-elements.css">
+		<link rel="stylesheet" href="theme/css/theme-blog.css">
+		<link rel="stylesheet" href="theme/css/theme-shop.css">
+		<link rel="stylesheet" href="theme/css/theme-animate.css">
+
+		<!-- Skin CSS -->
+		<link rel="stylesheet" href="theme/css/skins/default.css">		<script src="theme/master/style-switcher/style.switcher.localstorage.js"></script>
+
+		<!-- Theme Custom CSS -->
+		<link rel="stylesheet" href="theme/css/custom.css">
+
+		<!-- Head Libs -->
+		<script src="theme/vendor/modernizr/modernizr.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+		
+		<script type="text/javascript">
+			$(window).scroll(function() {
+
+					//After scrolling 100px from the top...
+					if ( $(window).scrollTop() >= 150 ) {
+						$('#headermenu').css('border-bottom-color', '#e9e9e9');
+						$('#headermenu').css('box-shadow', '0 0 3px rgba(0, 0, 0, 0.1)');
+
+					//Otherwise remove inline styles and thereby revert to original stying
+					} else {
+						$('#headermenu').attr('style', '');
+
+					}
+				})
+		</script>
+				
+		
+	</head>
+	<body>
+	<div class="body">
+
+<?php include('include/header.php') ?>
+<div role="main" class="main">
+
+				<section class="page-header">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<h1>Condições gerais</h1>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<div class="container">
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Condições gerais de venda
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								Este contrato é celebrado entre a B2Cloud - Desenvolvimento de Soluções Cloud, SA - Rua S. João, Nº 132, 4760-445 Vila Nova de Famalicão, Braga, Portugal com o NIF: 510705278, e o CLIENTE para a prestação de uma solução de e-mail Marketing e serviços relacionados comercializadas pelo seu site www.seedmail.biz.
+								<br><br>O Seedmail se reserva o direito de modificar este contrato a qualquer momento e comunicar as modificações, publicando as novas condições no site e/ou pelo envio das informações ao endereço de e-mail do CLIENTE.
+								<br><br>A RESPONSABILIDADE DE CONSULTAR REGULARMENTE O SITE DO Seedmail PARA SE INFORMAR EM TEMPO REAL SOBRE TODAS AS MUDANÇAS QUE POSSAM OCORRER NA OFERTA E NAS CONDIÇÕES DE VENDA É INTEIRAMENTE DO CLIENTE. A CONTINUAÇÃO DA EXPLORAÇÃO DOS SERVIÇOS DEPOIS DA PUBLICAÇÃO E/OU TRANSMISSÃO DAS MODIFICAÇÕES REALIZADAS SIGNIFICA, DE FATO, A ACEITAÇÃO DAS NOVAS CONDIÇÕES.
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								A versão atualizada pode ser consultada clicando-se no link 'Condições gerais' constante no site..
+								<br>Qualquer conta que viole esta política anti-spam (ou que tente violá-la) será imediatamente suspensa sem aviso prévio.
+							</p>
+						</div>	
+					</div>
+					
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Conta do cliente e gestão dos dados
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								A utilização dos serviços do Seedmail exige a criação de uma conta on-line; o cliente é responsável pelas informações pessoais fornecidas por ele. Você aceita que deve avisar sem demora o Seedmail sobre todas as modificações nessas informações, que devem ser completas, corretas e atualizadas. Você é inteiramente responsável por manter a confidencialidade da sua senha e do acesso à sua conta. Além disso, você é responsável por todas as atividades que outros usuários realizem com a sua conta.
+								<br><br>Você se dispõe a informar imediatamente o Seedmail sobre qualquer uso não autorizado da sua conta ou sobre qualquer outra violação da sua segurança. O Seedmail não é responsável por nenhuma perda de informação que possa ocorrer após a utilização de sua senha ou de sua conta por qualquer outra pessoa, com ou sem a sua autorização. De qualquer modo, você é responsável por perdas sofridas pelo Seedmail ou qualquer outra empresa causada pelo uso de sua conta ou de sua senha, por qualquer outra pessoa. O uso de uma conta sem a autorização do titular é proibido.
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O Seedmail arquiva as mensagens enviadas e recebidas. As listas de contatos são mantidas enquanto sua conta estiver ativa. O Seedmail protege a integridade, a confidencialidade e a segurança administrativa, física e técnica das informações pessoais do CLIENTE. O CLIENTE tem consciência que o Seedmail pode modificar a qualquer momento suas práticas e seus limites relativos ao arquivamento de mensagens e que a notificação destas mudanças será publicada no site do Seedmail. O CLIENTE aceita, também, que este serviço seja fornecido exclusivamente para benefício do CLIENTE e que o Seedmail não assuma nenhuma responsabilidade com relação à supressão, perda, divulgação ou falha de registro das mensagens e/ou outras comunicações geradas ou transmitidas por seus Serviços.
+							</p>
+						</div>	
+					</div>
+					
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Propriedade intelectual e proteção de arquivos
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O CLIENTE ou empresas especializadas na venda ou aluguel de arquivos, titulares de direitos de propriedade intelectual do arquivo, conservam a propriedade total, plena e exclusiva do arquivo transmitido ao Seedmail no âmbito da presente intervenção conforme a lei nº98-536 de 1ºde julho de 1998 acolhida no Código de propriedade intelectual da diretriz 96/9/CE do Parlamento Europeu e do Conselho, de 11 de março de 1996, com relação à proteção jurídica da base de dados.
+								<br><br>O Seedmail se compromete, de forma não limitativa, durante a vigência do contrato:
+								<br><br>&bullet; a não divulgar nenhum dado, em caráter pessoal ou considerado como tal, que esteja contido no arquivo, exceto por autorização prévia por escrito do cliente;
+									<br>&bullet; a não utilizar os dados em caráter pessoal do arquivo em nenhuma caso, totalmente ou parcialmente, com outro objetivo que não o das campanhas realizadas pelo cliente, sem o consentimento prévio por escrito do cliente;
+									<br>&bullet; a destruir o arquivo, bem como os suportes e cópias eventuais realizados no âmbito das operações de tratamento e roteamento, em no máximo 30 (trinta) dias após o encerramento do contrato;
+									<br>&bullet; O cliente autoriza o Seedmail a explorar os dados em caráter pessoal do arquivo que sejam necessários para a melhoria dos seus serviços	
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O cliente se compromete a respeitar as disposições da lei nº78-17 de 6 de janeiro de 1978, modificada pela lei de 6 de agosto de 2004, relacionada à informática, a arquivos e às liberdades (em particular, à liberdade dos destinatários de exercer seu direito individual de acesso, modificação, retificação e supressão de informações pessoais relacionadas) e se compromete a retificar, completar, esclarecer, atualizar ou apagar as informações caso sejam inexatas, incompletas, equivocadas, expiradas ou quando os destinatários desejarem proibir sua coleta, comunicação ou conservação.
+								<br><br>A este respeito, o Seedmail se reserva a possibilidade de suspender todas as campanhas por e-mail que não respeitarem, de qualquer forma que seja, a legislação informática em vigor, bem com as regras deontológicas ditadas pelo Seedmail e requerer que o cliente passe a estar em conformidade com as Regras de Informática e Liberdade antes da difusão de qualquer nova campanha.
+							</p>
+						</div>	
+					</div>
+					
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Condições financeiras
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O cliente concorda em pagar todos os custos do serviço Seedmail de acordo com as condições de pagamento para o serviço selecionado e do seu país de residência. Seedmail tem o direito de alterar os preços ou introduzir novas tarifas para qualquer acesso aos seus serviços, salvo indicação em contrário através de um acordo escrito com Seedmail. Todas as alterações serão publicadas pelo Seedmail no site da empresa. Se, após a publicação destas alterações, você continuar usando os serviços do Seedmail e não solicite o encerramento de sua conta, você concorda em observar as mudanças de tarifas publicadas.
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								Os valores são pré-pagos na moeda em que forem faturados. Suas tarifas podem ser pagas com antecedência e são DEFINIFITIVAMENTE NÃO REEMBOLSÁVEIS. O Seedmail lhe cobrará por uma quantidade de créditos ou um número de assinaturas. Se você escolher um 'pagamento por envio' (créditos), é possível enviar as campanhas cujo total de contatos for inferior aos créditos restantes da sua conta. Se você escolher a retirada ilimitada, não poderá ter mais assinaturas que as subscritas na retirada.
+								<br><br>Os preços constantes no site são sem as taxas; eles não incluem o IVA. As taxas suplementares são aplicáveis sobre a fatura em função do país de residência do CLIENTE e das regras aplicáveis.
+							</p>
+						</div>	
+					</div>
+					
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Utilização do serviço / Responsabilidade do cliente
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O cliente está obrigado:
+								<br><br>&bullet; (A) a adquirir todos os equipamentos e serviços de terceiros (por exemplo, os equipamentos telefônicos e informáticos) que forem necessários para ter acesso à utilização dos serviços
+								<br>&bullet; (B) a assumir toda a responsabilidade de todos os custos resultantes da utilização da conta, incluindo a utilização não autorizada, antes da comunicação ao Seedmail da má utilização e da permissão ao Seedmail para tomar as medidas necessárias para impedir esta utilização.
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O seu direito de utilizar o serviço é estritamente pessoal e não pode ser revendido. Ao utilizar o serviço, você se compromete a respeitar a política Anti-Spam que se aplica à s suas operações. As operações de Marketing realizadas por intermediação do Seedmail em violação das leis aplicáveis são proibidas. Elas são consideradas uma violação substancial deste contrato. Enquanto CLIENTE, você aceita respeitar a deontologia Anti-Spam do Seedmail.
+							</p>
+						</div>	
+					</div>
+					
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Utilização ilegal ou proibida
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O uso do Serviço Seedmail está condicionado à não utilização do Serviço para fins ilegítimos ou proibidos por lei ou pelo presente contrato. É proibido utilizar os Serviços de modo que possa de qualquer forma danificar, desativar ou sobrecarregar a infraestrutura do Seedmail, ou das redes conectadas aos servidores do Seedmail, ou que possa dificultar o aproveitamento do serviço por outros usuários. Qualquer tentativa de obter acesso não autorizado aos Serviços, a outras contas, sistemas informáticos ou a outras redes conectadas a um servidor do Seedmail ou a um dos serviços por pirataria ou qualquer outro método está proibida. É proibido usar ou registrar o nome do Seedmail ou qualquer outro nome comercial da empresa sem nosso consentimento prévio expresso e sem utilizar os procedimentos de identificação utilizados pelo Seedmail nesses serviços.
+								<br><br>O cliente garante que as informações apresentadas ao Seedmail são legítimas e que a transmissão de mensagens ou documentos não viola quaisquer leis federal, estadual ou provincial aplicáveis, incluindo qualquer conduta que possa constituir crime, violação dos direitos de terceiros, provocação à responsabilidade civil ou de outra forma uma violação das leis locais, estaduais ou nacionais. É proibido o uso dos serviços para fazer upload, publicar, reproduzir ou distribuir qualquer informação, software ou outro material protegido por direitos autorais ou qualquer outra legislação relativa à propriedade inteletual sem permissão do detentor dos direitos autorais. Você concorda em cumprir todas as leis, normas ou convenções, incluindo as disposições relativas ao telemarketing, e-mail marketing, anti-spam, anti-phishing, privacidade de dados, comunicações internacionais, exportação de dados técnicos e pessoais.
+								<br><br>Você é responsável pelo conteúdo das suas transmissões via Seedmail e aceita ser o autor do conteúdo, além de compreender que o Seedmail não aluga nem vende listas de e-mail. O Seedmail funciona como um suporte passivo para que você possa enviar e receber informações do seu interesse.
+								<br><br>O Seedmail proibe a utilização do Serviço ou de seus sites da web a qualquer pessoa ou entidade que encoraje, favoreça, forneça ou venda produtos ou serviços ligados a atividades ilegais ou fraudulentas, incluindo drogas ilícitas, software pirata, instruções de montagem ou criação de bombas, granadas ou outras armas, materiais contendo violência contra crianças ou que encoragem a violência, spam, material obsceno e atividades similares. Esta lista não é exaustiva e o Seedmail, a seu critério exclusivo, se reserva o direito de qualificar a atividade e determinar se a utilização é indevida. Sua decisão será final e obrigatória para todos os objetivos do presente contrato. O Seedmail vai cancelar sua utilização dos Serviços, caso ela determine que um dado conteúdo ou uma dada utilização indevida viole este contrato. Todas as informações consideradas como ilegais ou contrárias a este acordo que sejam armazenadas nos servidores do Seedmail podem ser excluídas a qualquer momento sem aviso prévio. O Seedmail se reserva o direito de suprimir todas as imagens que sejam contrárias a este contrato sem aviso prévio.
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O Seedmail:
+								<br><br>&bullet; Não garante a exatidão ou confiabilidade das opiniões, conselhos ou recomendações feitas por seu serviço;
+									<br>&bullet; Está isenta de toda responsabilidade relacionada a material obsceno, ofensivo ou que constitua perseguição, que possa ser distribuído por você ou qualquer outro por meio da sua conta;
+									<br>&bullet; Não assume nenhuma responsabilidade por qualquer material distribuído pelo Serviço por intermédio da sua conta que consista em violação do direito de propriedade intelectual;
+									<br>&bullet; Não assume nenhuma responsabilidade por reclamações relacionadas a e-mails não solicitados enviados por você ou por qualquer outra pessoa usando a sua conta.
+									<br><br>O Seedmail tem o direito de divulgar a qualquer momento qualquer tipo de informação para garantir o cumprimento à legislação aplicável, à regulamentação e aos processos jurídicos e satisfazer as requisições formuladas por organismos oficiais visando garantir este cumprimento. O Seedmail tem o direito mas não é obrigada a examinar o conteúdo de todas as suas mensagens para garantir o cumprimento desse contrato e da lei aplicável quando uma reclamação surgir. Além disso, o Seedmail tem o direito de realizar qualquer ação julgada necessária ou apropriada, caso considere que você ou as suas informações possam gerar uma responsabilidade qualquer para o Seedmail, possam perturbar os Serviços oferecidos aos outros clientes ou a você mesmo, ou possam provocar perdas ao Seedmail ou a seus fornecedores diretos ou indiretos (totais ou parciais).
+									<br><br>Você aceita indenizar e proteger o Seedmail por qualquer reclamação direta ou indireta, por perdas, danos, custos, despesas ou gastos (incluindo os custos por despesas jurídicas) decorrentes da utilização dos seus serviços, da violação das condições deste contrato, de marcas comerciais ou pela emissão de suas mensagens e seus documentos por intermédio do Serviço.
+							</p>
+						</div>	
+					</div>
+					
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Respeito às normas aplicáveis
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O envio de mensagens não solicitadas é regulamentado; sua atividade de envio de e-mail marketing está submetida à legislação federal, estatual e municipal do local a partir do qual você opera.
+								<br><br>Como exemplos, sem nenhuma pretensão de ser exaustivo ou de gerar exceções:
+								<br><br>&bullet; Nos Estados Unidos, as leis aplicáveis são: Telemarketing Sales Rule, Federal Telephone Consumer Protection Act, Can-Spam-Act.
+									<br><br>&bullet; Na França, o Artigo L.34-5 do Código dos correios e das comunicações eletrônicas e o Artigo L.121-20-5 do Código do consumidor são aplicáveis.
+									<br>&bullet; Na Itália, as seguintes leis se aplicam: o artigo 130 do Codice Privacy ('Comunicazioni indesiderate'), art. 9 do Decreto Legislativo 9 aprile 2003, n.70, com relação ao comércio eletrônico, os artigos 161 e 167 do Codice Privacy, o artigo 58 do Codice del consumo e o Decreto Legislativo 206 de 2005.
+									<br>&bullet; Na Espanha, se aplicam a Ley de Servicios de la Sociedad de la Información y de Comercio Electrónico (LSSICE), publicada no Boletín Oficial del Estado (BOE) em 12 julho de 2002 e a Ley Orgánica de Protección de Datos (LOPD).
+									<br>&bullet; No Reino Unido, em dezembro de 2003, o governo apresentou o artigo 13 da Directive on Privacy and Electronic Communications of the European Union.
+								<br><br>Se pretende enviar e-mails para ISPs que são membros da CSA (a lista pode ser consultada aqui: <a style="color:#8cc63f" target="_blank" href="https://certified-senders.eu/participants/">https://certified-senders.eu/participants/</a>), , as suas campanhas precisam de cumprir as seguintes regras:
+								<br><br>&bullet; Nome e endereço do remetente. Para entidades jurídicas, além do nome e endereço, é necessário também o estatuto jurídico da entidade, assim como o nome do Representante Legal e o número de matrículação do Registo do Comércio, do registo das Associações e o Registo dos Parceiros ou de Cooperativas.
+									<br>&bullet; Informações de contacto, i.e., pelo menos um número de telefone válido ou um formulário de contato, bem como um endereço de e-mail válido. Se houver um número de identificação fiscal de acordo com a secção 27ª de taxamento de valor acrescentado ou um número de identificação do código de taxa de acordo com a secção 139c, este número também deverá ser fornecido.
+									
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								O Seedmail:
+								<br><br>O consentimento dos destinatários deverá respeitar as seguintes condições:
+									<br><br>&bullet; Os e-mails devem ser dirigidos apenas aos destinatários que deram seu consentimento para recebê-los, conforme a seção 7, parágrafo 2, número 3 da lei contra a concorrência desleal (opt-in) ou aos destinatários que têm uma relação comercial com o anunciante. Além disso, as condições do artigo 13, seção 2 da diretiva europeia 2002/58/EU, 'Vida privada e comunicações eletrônicas', devem ser respeitadas. (Anúncio publicitário direto de produtos ou serviços similares ao do remetente, menção da possibilidade gratuita de proibir o uso do e-mail a cada inscrição e a cada vez que o e-mail em questão for usado).
+									<br>&bullet; O acordo para receber anúncios publicitários por e-mail deve ser feito separadamente. O destinatário deve marcar uma caixa, ou dar um consentimento claro para receber os anúncios por e-mail. Esta declaração deve ser independente das outras (como o acordo sobre as condições gerais de uso).
+									<br>&bullet; Os destinatários dever concordar voluntariamente. Assim, as caixas pré-marcadas não podem ser utilizadas. Se o acordo não tiver sido formulado explicitamente, por escrito ou por via eletrônica, será necessário solicitar uma confirmação por escrito ao proprietário do e-mail. A possibilidade de retirar sua permissão a qualquer momento deve ser claramente indicada durante a solicitação de autorização. Esta menção também deve incluir todas as informações necessárias sobre a forma de cancelar a permissão e sobre quem contactar para este fim.
+									<br><br>O envio de mensagens não solicitadas ou de qualquer mensagem que a legislação aplicável, da qual apresentamos aqui essas referências a título de exemplos, proíba, por meio dos serviços do Seedmail, é indevido e constitui uma violação substancial deste contrato.
+									<br><br>Como CLIENTE, você aceita respeitar os termos da deontologia Anti-Spam do Seedmail.
+							</p>
+						</div>	
+					</div>
+					
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Propriedade, exclusão de garantias e limites de responsabilidade
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								Todos os programas, serviços, processos, designs, software, tecnologias, marcas e nomes comerciais ou invenções que englobem o Seedmail são de propriedade do Seedmail e/ou de seus cessores de licença ou fornecedores de serviço, exceto nos casos em que se especifique expressamente o contrário.
+								<br><br>OFERECEMOS NOSSOS SERVIÇOS 'TAIS COMO SÃO (AS IS)' E NÃO DAMOS NENHUMA GARANTIA, EXPLÍCITA OU IMPLÍCITA, ESCRITA OU ORAL, DERIVADA DO ESTATUTO, DO PROCESSO JURÍDICO, DAS PRÁTICAS DO COMÉRCIO; NENHUMA GARANTIA RELATIVA AO SERVIÇO, À DOCUMENTAÇÃO OU A OUTROS SERVIÇOS FORNECIDOS POR ESTE CONTRATO. O SEEDMAIL EXCLUI, EXPRESSAMENTE, A GARANTIA DE DISPONIBILIDADE DOS SERVIÇOS OU QUALQUER OUTRA GARANTIA IMPLÍCITA DE QUALIDADE SATISFATÓRIA, DE DURABILIDADE DO SERVIÇO OU DE ADAPTAÇÃO A UM USO PARTICULAR. NENHUMA CONDIÇÃO OU AFIRMAÇÃO, ENGLOBANDO, MAS NÃO SE LIMITANDO À LITERATURA DE MARKETING OU ÀS DECLARAÇÕES DE INÍCIO DOS SERVIÇOS DO SEEDMAIL, QUE NÃO TENHA SIDO MENCIONADA NESTE PARÁGRAFO PODE SER INTERPRETADA COMO GARANTIA.
+								
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								As responsabilidades do Seedmail, das suas filiais ou parceiras com relação a um prejuízo, a uma violação de contrato (incluindo uma ruptura fundamental ou falha em atingir o objetivo essencial), ou a uma distorção de fatos, em um único caso ou em uma série de casos, não pode exceder os valores pagos pelo CLIENTE ao Seedmail para os serviços que causaram a queixa. O Seedmail não pode ser responsável por nenhuma perda punitiva, indireta, secundária ou especial sofrida pelo CLIENTE ou por terceiros, incluindo a falta de lucros esperados, perda de lucros e dividendos, perda de dados ou qualquer outra perda econômica ou comercial.
+							</p>
+						</div>	
+					</div>
+					
+					<div class="row mb-lg">
+						<div class="col-md-12">
+							<h2 class="word-rotator-title">
+								Duração e término
+							</h2>
+						</div>
+					</div>
+					<div class="row mb-xxlg">
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								Você pode cancelar sua assinatura a qualquer momento enviando um e-mail para <a style="color:#8cc63f" href="mailto:info@seedmail.biz">info@seedmail.biz</a>.
+								<br><br>Se você tiver um acordo por escrito assinado com o Seedmail, a cláusula de término é a do acordo escrito.
+								<br><br>O Seedmail tem o direito de suspender ou cancelar unilateralmente os serviços no momento em que o Seedmail considerar que o Serviço seja utilizado para fins contrários à lei ou a estes termos. O Seedmail não tem a responsabilidade de informar a terceiros, incluindo fornecedores de serviços, mercadorias ou informações, sobre a suspensão, a restrição ou a anulação da sua conta. O Seedmail não tem nenhuma obrigação de manter nenhuma mensagem ou outros conteúdos da sua conta e transmitir nenhuma mensagem não lida ou não enviada.
+								<br><br>O cancelamento da sua conta não isenta o CLIENTE de seus débitos nem de nenhuma responsabilidade decorrente deste contrato antes de seu encerramento. Você aceita que estes Termos sejam regulamentados e interpretados conforme a legislação de Paris, França, e que, por meio deste contrato, você esteja submetido à jurisdição estatal correspondente; você aceita que qualquer litígio seja dirimido pelo Tribunal de Paris, França.
+							</p>
+						</div>
+						<div class="col-md-6">
+							<p style="text-align:justify;">
+								Se o Seedmail determinar que os serviços em questão estejam sendo utilizados em associação com spam, o Seedmail pode suspender ou anular qualquer campanha ou outros serviços aplicáveis, imediatamente.
+								<br><br>O Seedmail pode exigir o pagamento de uma indenização de 500 € a título de danos e juros de quem quer que tenha infringido nossa política anti-spam. O Seedmail também pode exigir o pagamento de taxas de reativação não reembolsáveis de 500 € para reativar a conta / campanha por e-mail e/ou serviços.
+								<br><br>Nós encorajamos todos os nossos clientes e seus destinatários de e-mails gerados por nossos produtos e nossos serviços que nos avisem de qualquer spam enviado por nossos servidores.
+								<br><br>Estes avisos podem ser enviados por e-mail para: <a style="color:#8cc63f" href="mailto:info@seedmail.biz">info@seedmail.biz</a>.
+							</p>
+						</div>	
+					</div>
+					
+				</div>
+				
+			</div>
+			<?php include('include/footer.php') ?>
+			</div>
+			<?php include('include/scripts.php') ?>
+			<!-- Vendor -->
+		<script src="theme/vendor/jquery/jquery.min.js"></script>
+		<script src="theme/vendor/jquery.appear/jquery.appear.min.js"></script>
+		<script src="theme/vendor/jquery.easing/jquery.easing.min.js"></script>
+		<script src="theme/vendor/jquery-cookie/jquery-cookie.min.js"></script>
+		<script src="theme/master/style-switcher/style.switcher.js"></script>
+		<script src="theme/vendor/bootstrap/js/bootstrap.min.js"></script>
+		<script src="theme/vendor/common/common.min.js"></script>
+		<script src="theme/vendor/jquery.validation/jquery.validation.min.js"></script>
+		<script src="theme/vendor/jquery.stellar/jquery.stellar.min.js"></script>
+		<script src="theme/vendor/jquery.easy-pie-chart/jquery.easy-pie-chart.min.js"></script>
+		<script src="theme/vendor/jquery.gmap/jquery.gmap.min.js"></script>
+		<script src="theme/vendor/jquery.lazyload/jquery.lazyload.min.js"></script>
+		<script src="theme/vendor/isotope/jquery.isotope.min.js"></script>
+		<script src="theme/vendor/owl.carousel/owl.carousel.min.js"></script>
+		<script src="theme/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+		<script src="theme/vendor/vide/vide.min.js"></script>
+		
+		<!-- Theme Base, Components and Settings -->
+		<script src="theme/js/theme.js"></script>
+		
+		<!-- Theme Custom -->
+		<script src="theme/js/custom.js"></script>
+		
+		<!-- Theme Initialization Files -->
+		<script src="theme/js/theme.init.js"></script>
+		
+	</body>
+</html>
